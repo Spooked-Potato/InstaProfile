@@ -16,18 +16,17 @@ The app is built using the following technologies:
 
 To install the project, follow these steps:
 
-    Clone the repository:
+    Clone the repository: https://github.com/Spooked-Potato/InstaProfile.git
 
 Install the dependencies:
 
-    docker-comose build
-    sass --watch public/scss/styles.scss public/css/styles.css
+npm i
 
 Then, update the .env file with your own environment variables.
 
 Start the server:
 
-    docker-compose up --build
+    npm run dev
 
 The server should now be running at http://localhost:3000.
 
