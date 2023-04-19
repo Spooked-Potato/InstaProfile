@@ -1,0 +1,10 @@
+.editProfileButton {
+  padding: 0.5rem;
+  background-color: #fff;
+  color: #1e1e1e;
+  border: none;
+  font-size: 14px;
+  width: 12rem;
+  border-radius: 1rem;
+  font-weight: 600;
+}

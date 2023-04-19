@@ -1,0 +1,4 @@
+@import "global/appStyles.css";
+@import "global/variables.css";
+@import "pages/index.css";
+@import "components/button.css";

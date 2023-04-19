@@ -1,0 +1,20 @@
+/*font-sizes
+  h1 --> 35px desktop / 25px mobile 
+  h2 --> 30px desktop / 20px mobile
+  p/h3 --> 18px desktop / 16px mobile
+*/
+
+:root {
+  --background-color: #363636;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: calc(1.5em + 0.2vw) !important;
+  font: inherit;
+  font-size: 10px;
+}

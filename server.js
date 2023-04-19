@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+app.get("/account", (req, res) => {
+  res.render("editProfile");
+});
+
 app.listen(3000, () => {
   console.log("Server running on http://localhost:3000");
 });

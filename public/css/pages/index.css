@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  gap: 3rem;
+}
+
+#containerProfile {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+#profile {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("/assets/img/profile.jpg");
+}
+
+#infoContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.containerPost {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.post {
+  height: 31rem;
+  width: 31rem;
+}
